@@ -1,0 +1,34 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variable files
+.env
+.env.*
+
+# Virtual environment
+venv/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# VS Code settings (optional)
+.vscode/
+
+# macOS system file
+.DS_Store
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints (if used)
+.ipynb_checkpoints/
+
+# MyPy, coverage, and test reports (if used)
+.mypy_cache/
+coverage.xml
+htmlcov/
+.cache/
+
