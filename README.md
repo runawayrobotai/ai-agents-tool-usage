@@ -1,6 +1,6 @@
 # AI Agents Tool Usage
 
-A demonstration project showcasing two different approaches to implementing LLM tool calling with Python. This project compares a manual implementation using the Anthropic Claude API directly versus a simplified approach using the PydanticAI framework.
+A demonstration project showcasing two different approaches to implementing LLM tool calling with Python. This project compares a simple implementation using the Anthropic Claude API directly versus a more practical approach using the PydanticAI framework.
 
 ## 🎯 Project Overview
 
@@ -34,7 +34,7 @@ Both programs provide identical functionality but showcase different architectur
 ### 1. Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/runawayrobotai/ai-agents-tool-usage
 cd ai-agents-tool-usage
 ```
 
@@ -100,7 +100,7 @@ This version demonstrates manual tool calling implementation with detailed contr
 python pydantic_ai_tools.py
 ```
 
-This version uses the PydanticAI framework for simplified tool integration and cleaner code structure.
+This version uses the PydanticAI framework for tool integration and cleaner code structure.
 
 ### Available Commands
 
@@ -159,7 +159,7 @@ ai-agents-tool-usage/
 
 - **`simple_ai_tools.py`** - Demonstrates manual tool calling with explicit tool definition, execution handling, and conversation management
 - **`pydantic_ai_tools.py`** - Shows simplified approach using PydanticAI decorators and automatic tool integration
-- **`.env`** - Contains your Anthropic API key (not tracked in git)
+- **`.env`** - Contains your Anthropic API key
 
 ## 🔍 Key Differences Between Implementations
 
@@ -217,9 +217,6 @@ This project demonstrates:
 - [PydanticAI Documentation](https://ai.pydantic.dev/)
 - [Python dotenv Documentation](https://python-dotenv.readthedocs.io/)
 
-## 🤝 Contributing
-
-Feel free to submit issues, fork the repository, and create pull requests for any improvements.
 
 ## 📄 License
 
